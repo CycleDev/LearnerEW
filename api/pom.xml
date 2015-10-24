@@ -11,6 +11,10 @@
     <packaging>war</packaging>
     <name>api</name>
 
+    <dependencies>
+
+    </dependencies>
+
     <build>
         <finalName>api</finalName>
     </build>

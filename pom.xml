@@ -11,6 +11,8 @@
 
     <modules>
         <module>api</module>
+        <module>data</module>
+        <module>api-view</module>
     </modules>
 
     <properties>
@@ -101,7 +103,7 @@
             <id>profile-local</id>
             <properties>
                 <api.url>http://localhost:8080/api/</api.url>
-                <mongo.dbname>mathclassdb</mongo.dbname>
+                <mongo.dbname>wordDB</mongo.dbname>
                 <mongo.host>127.0.0.1</mongo.host>
                 <mongo.port>27017</mongo.port>
             </properties>
@@ -129,7 +131,6 @@
         </testResources>
 
         <plugins>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -147,9 +148,8 @@
                     <target>${java.version}</target>
                 </configuration>
             </plugin>
-
         </plugins>
-    </build>
 
+    </build>
 
 </project>
