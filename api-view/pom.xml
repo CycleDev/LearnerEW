@@ -10,5 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>api-view</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>nao.cycledev.learnerew</groupId>
+            <artifactId>data</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+    </dependencies>
 
 </project>

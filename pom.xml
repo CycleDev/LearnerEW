@@ -103,7 +103,7 @@
             <id>profile-local</id>
             <properties>
                 <api.url>http://localhost:8080/api/</api.url>
-                <mongo.dbname>wordDB</mongo.dbname>
+                <mongo.dbname>worddb</mongo.dbname>
                 <mongo.host>127.0.0.1</mongo.host>
                 <mongo.port>27017</mongo.port>
             </properties>

@@ -13,7 +13,7 @@ public class WebAppInitializer implements WebApplicationInitializer {
     public void onStartup(ServletContext container) throws ServletException {
 
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
-        ctx.register(AppConfig.class);
+        ctx.register(AppConfig.class, DataSourceConfig.class);
         ctx.setServletContext(container);
         Dynamic servlet = container.addServlet("dispatcher", new DispatcherServlet(ctx));
         servlet.setLoadOnStartup(1);
