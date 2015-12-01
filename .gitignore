@@ -13,4 +13,11 @@ hs_err_pid*
 
 .idea
 target
+LearnEW.iml
+/app-ui/app-ui.iml
+/util/util.iml
+/api/api.iml
+/api-view/api-view.iml
+/data/data.iml
+
 

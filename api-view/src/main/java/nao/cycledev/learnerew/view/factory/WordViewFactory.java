@@ -1,7 +1,7 @@
 package nao.cycledev.learnerew.view.factory;
 
-import nao.cycledev.learnerew.data.model.Word;
 import nao.cycledev.learnerew.view.WordView;
+import nao.cycledev.learnerew.data.model.Word;
 
 import java.util.ArrayList;
 import java.util.List;
